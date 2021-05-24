@@ -1,0 +1,88 @@
+/*图片1*/
+
+.he_border1:hover .he_border1_img {
+    transform: scale(1.2);
+    opacity: 0.7;
+}
+
+.he_border1:hover .he_border1_caption_p {
+    transition: 0.6s;
+    transform: translate(0, -40px);
+    color: white;
+    opacity: 1;
+}
+
+.he_border1:hover .he_border1_caption::before {
+    opacity: 1;
+    transform: scale(1, 1);
+}
+
+.he_border1:hover .he_border1_caption::after {
+    opacity: 1;
+    transform: scale(1, 1);
+}
+
+
+/*图片2*/
+
+.he_border2:hover .he_border2_img {
+    transform: scale(1.2);
+    opacity: 0.7;
+}
+
+.he_border2:hover .he_border2_caption_p {
+    transition: 0.6s;
+    transform: translate(0, -40px);
+    color: white;
+    opacity: 1;
+}
+
+.he_border2:hover .he_border2_caption::before {
+    opacity: 1;
+    transform: scale(1, 1);
+}
+
+.he_border2:hover .he_border2_caption::after {
+    opacity: 1;
+    transform: scale(1, 1);
+}
+
+
+/*图片3*/
+
+.he_3DFlipX .he_3DFlipX_caption {
+    transform: rotateX(-180deg);
+}
+
+.he_3DFlipX .he_3DFlipX_img {
+    transform: rotateX(0deg);
+}
+
+.he_3DFlipX:hover .he_3DFlipX_img {
+    transform: rotateX(180deg);
+}
+
+.he_3DFlipX:hover .he_3DFlipX_caption {
+    opacity: 1;
+    transform: rotateX(0deg);
+}
+
+
+/*图片4*/
+
+.he_3DFlipY .he_3DFlipY_caption {
+    transform: rotateY(-180deg);
+}
+
+.he_3DFlipY .he_3DFlipY_img {
+    transform: rotateY(0deg);
+}
+
+.he_3DFlipY:hover .he_3DFlipY_img {
+    transform: rotateY(180deg);
+}
+
+.he_3DFlipY:hover .he_3DFlipY_caption {
+    opacity: 1;
+    transform: rotateY(0deg);
+}
